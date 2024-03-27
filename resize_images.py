@@ -12,7 +12,7 @@ NEW_FOLDER_NAME = input("Enter The New Folder Name : ")
 os.makedirs(NEW_FOLDER_NAME, exist_ok=True)
 # Loop over all files in the working directory.
 for filename in os.listdir('.'):
-    if not (filename.endswith('.png') or filename.endswith('.jpg')):
+    if not filename.endswith(('.png', '.jpg')):
         continue # skip non-image files and the logo file itself
 
     im = Image.open(filename)
