@@ -1,5 +1,6 @@
 # Python-Automation-Scripts
 
+
 simple python scripts i use in my life for automating some tasks , this repo will be updated continuously 
 
 - add logo to images : the code will ask you for the logo name then will add this logo to all the images in the folder beside the logo
